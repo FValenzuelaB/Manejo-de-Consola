@@ -1,17 +1,56 @@
-# Manejo-de-Consola
+# taller manejo de consola 
 
-Comandos de consola para manejo de archivos
-Link de comandos https://sanchezcorbalan.es/mejores-comandos-linux-bash/
+Comandos de consola para manejo de archivos en Linux
 
-ls (sirve para listar los archivos en una carpeta)
-cd .. (sirve para moverse a la carpeta anterior)
-mkdir (sirve para crear carpeta vacia dentro de la ubicación actual)
-rm -r "nombre" (borra la carpeta)
-rm "archivo" (borre el archivo)
-touch "asdasd.webo" (crea un archivo con el nombre especificado, se debe agregar .extención)
-gir add . (guarda los cambios)
-git status (da el estado actual de los archivos)
-git commit -m "nota" (agrega una nota al guardado, para dejar una bitacora de cambios)
-git push (agrega los cambios en github)
+## Link de comandos https://sanchezcorbalan.es/mejores-comandos-linux-bash/
 
-markdown cheat sheet https://www.markdownguide.org/cheat-sheet/
+## Contenidos
+- **Navegación en directorios**
+- **Gestión de archivos y carpetas**
+- **Uso de la documentación del sistema**
+- **Comandos Git**
+
+## Navegación en directorios
+
+- **`cd "nombre de la carpeta"`**  
+  Ingresa a la carpeta especificada.
+
+- **`cd ..`**  
+  Retrocede al directorio anterior.
+
+- **`ls`**  
+  Lista los archivos y carpetas en el directorio actual.
+
+## Gestión de Archivos y Carpetas
+
+- **`mkdir "nombre_de_la_carpeta"`**  
+  Crea una carpeta vacía.
+
+- **`rm "nombre_del_archivo"`**  
+  Borra el archivo especificado.  
+  *Para eliminar una carpeta y su contenido, utiliza el parámetro `-r`:*  
+  **`rm -r nombre_de_la_carpeta`**
+
+- **`touch "nombre_del_archivo.extención"`**  
+  Crea un archivo vacío.
+
+## Uso de la Documentación del Sistema
+
+- **`man "comando"`**  
+  Muestra la documentación detallada del comando indicado, lo que permite conocer todas sus opciones y uso.
+
+## Comandos Git
+
+- **`git status`**  
+  Visualiza el estado del repositorio, mostrando los archivos modificados y pendientes de confirmar.
+
+- **`git add .`**  
+  Añade todos los cambios realizados al área de preparación (staging area).
+
+- **`git commit -m "mensaje cortito"`**  
+  Realiza un commit de los cambios añadidos, incluyendo un mensaje breve que describa los cambios realizados.
+
+- **`git push`**
+  Realiza el guardado en githhub.
+
+## markdown cheat sheet https://www.markdownguide.org/cheat-sheet/
